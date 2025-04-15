@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: ??? - ??? ??.ggsk
-// Generated 2025-04-15T13:45:42
+// Generated 2025-04-15T14:50:06
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_m_roomMove', 2, false, { ignoreInState: 0  });
@@ -3839,6 +3839,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._m);
 		el=me._pc1=document.createElement('div');
 		el.ggId="pc-\ud654\uc0b4\ud45c";
+		el.ggDx=0;
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=false;
@@ -3846,8 +3847,8 @@ function pano2vrSkin(player,base) {
 		el.ggType='container';
 		hs ='';
 		hs+='height : 42px;';
+		hs+='left : calc(50% - ((90% + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
-		hs+='right : 20px;';
 		hs+='top : calc(50% - ((42px + 0px) / 2) + 0px);';
 		hs+='visibility : hidden;';
 		hs+='width : 90%;';
@@ -3883,18 +3884,21 @@ function pano2vrSkin(player,base) {
 				if (me._pc1.ggCurrentLogicStateSize == 0) {
 					me._pc1.style.width='95%';
 					me._pc1.style.height='42px';
+					me._pc1.style.left = 'calc(50% - (95% / 2))';
 					me._pc1.style.top = 'calc(50% - (42px / 2))';
 					skin.updateSize(me._pc1);
 				}
 				else if (me._pc1.ggCurrentLogicStateSize == 1) {
 					me._pc1.style.width='93%';
 					me._pc1.style.height='42px';
+					me._pc1.style.left = 'calc(50% - (93% / 2))';
 					me._pc1.style.top = 'calc(50% - (42px / 2))';
 					skin.updateSize(me._pc1);
 				}
 				else {
 					me._pc1.style.width='90%';
 					me._pc1.style.height='42px';
+					me._pc1.style.left = 'calc(50% - (90% / 2))';
 					me._pc1.style.top = 'calc(50% - (42px / 2))';
 					skin.updateSize(me._pc1);
 				}

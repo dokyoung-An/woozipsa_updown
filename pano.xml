@@ -177,7 +177,7 @@
       <hotspot id="Point02" tilt="-20.82" pan="-205.28" title="주방" description="" skinid="ht_node" url="{node8}" target=""/>
       <hotspot id="Point03" tilt="-22.38" pan="-125.22" title="복도1" description="" skinid="ht_node" url="{node11}" target=""/>
       <hotspot id="Point04" tilt="-16.71" pan="-243.12" title="침실1" description="" skinid="ht_node" url="{node4}" target=""/>
-      <hotspot id="Point05" tilt="43.61" pan="-359.62" title="" description="" skinid="집꾸미기버튼" url="" target="_blank"/>
+      <hotspot id="Point05" tilt="43.61" pan="-359.62" title="" description="" skinid="집꾸미기버튼-에어컨" url="" target="_blank"/>
     </hotspots>
     <media/>
     <transition zoomout="0" type="crossdissolve" softedge="0" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1" zoomfov="40" zoomin="0" delay="none" blendtime="1" zoomafterinfov="140" zoomspeed="2" enabled="1"/>
